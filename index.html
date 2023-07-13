@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width,    initial-scale=1.0">
+        <title>personal portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5b6eef5480.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png"  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Learn</a></li>
+                <li><a href="#portfolio">Interest</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> web devloper</p>
+            <h1>Hi, I'm <span>Ashwini.T</span><br> From Bangalore</h1>
+              
+        </div>
+    </div>
+</div>
+<!--------------ABOUT---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am pursuing BCA in Kristu Jayanti College.Seeking a challenging position in a reputable organization to expand and utilize my learning, skills and knowledge. Possess excellent communication skills and have an eye for detail. Flexible to work in any environment as required</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('eductaion')">Eductaion</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML,CSS&JS</span><BR>Designing web/app frontend</li>
+                            <li><span>C++</span><BR>Coding</li>
+                                <li><span>DataBase Managment System</span><BR>connection in backend in ms access</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June,2023 - July,2023</span><BR>Inter In InterPe</li>
+                        <li><span>June,2023 - current</span><BR>Velozion Technologies Pvt Ltd</li>
+                               
+                    </ul>
+                </div>
+                <div class="tab-contents" id="eductaion">
+                    <ul>
+                        <li><span>2019-2020</span><BR>Emmanuel Sugnana Jyothi High School, bangalore
+                            (sslc)</li>
+                            <li><span>2020-2021</span><BR>St Charles Women's Composite PU College College, bangalore(puc)</li>
+                                <li><span>2021- current</span><BR>Kristu Jayant COLLEGE, bangalore
+                                    (Degree)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------serives---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Learn</h1>
+        <div class="services-list">
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>Web Designers create and build websites and web pages by combining any number of visual design elements including text, photos, graphics, animations and videos. A Web Designer could create a brand new website or simply make updates to the design and layout of existing pages.</p>
+    <a href="https://brainstation.io/career-guides/what-is-a-web-designer#:~:text=Web%20Designers%20create%20and%20build,and%20layout%20of%20existing%20pages.">Learn More</a>
+</div>
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>C++ progarmming</h2>
+    <p>Many modern systems like search engines, VR applications, databases, operating systems, web browsers, and even movie productions are powered by the C++ code. Adobe products, Unreal Engine, and the Chrome and Firefox browsers are built with C++.</p>
+    <a href="https://www.javatpoint.com/cpp-programs">Learn More</a>
+</div>
+<div>
+    <i class="fa-solid fa-database"></i>
+    <h2>DataBase Managment System</h2>
+    <p>Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database.
+    </p>
+    <a href="https://www.appdynamics.com/topics/database-management-systems#:~:text=Database%20Management%20Systems%20(DBMS)%20are,delete%20data%20in%20the%20database.">Learn More</a>
+</div>
+        </div>
+
+    </div>
+</div>
+<!--------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Interest</h1>
+        <div class="work-list">
+            <div class="work">
+         <img src ="images/work-1.png" > 
+         <div class="layer">
+            <h3>Glass Painting</h3>
+            <p>The glass painting was inspired me when I was in 10th which my teacher gave me as SEVAnd I have done a lot ofworks like different designs as a gift to many of the friendsAnd it is still part of my craft works. And I am interested till now.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+         </div>
+            </div>
+            <div class="work">
+                <img src ="images/work-2.png" > 
+                <div class="layer">
+                    <h3>Dance</h3>
+                    <p>I Perform a lot of dance competitions in schools. And I got first placein danceand I'm still doingcourses as hip hopand folk dance.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                 </div>
+                   </div>
+                   <div class="work">
+                    <img src ="images/work-3.png" > 
+                    <div class="layer">
+                        <h3>Craft</h3>
+                        <p>My craft have created crafts like with using wealth out of waste and with paper craft and with coolant thread. And it is, I have made lot of hangings .</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                     </div>
+                       </div> 
+        </div>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+<!-----------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ashwinithangavelu4@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8095667822</p>
+               <div class="social-icons">
+                <a href="https://instagram.com/ashu_ashwini.t?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ashwini-t-826704228?"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ashwini-thangavelu"><i class="fa-brands fa-github"></i></a>
+               </div>
+               <a href="images/my-cv.pdf" download class="btn btn2">Download Cvv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="You Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> By Ashwini.T . </p>
+    </div>
+</div>
+<script>
+  
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");  
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycby1YTvSgcBSRN6maPMMpxuHkHBF4lJsGyvrqC4GD8KMF4nQZXtXWXdN_DjNOViu2m2i/exec' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+    </body>
+</html>
