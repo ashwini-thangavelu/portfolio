@@ -328,7 +328,7 @@ nav .fas{
     font-size: 25px;
 }
 nav ul{
-    background: #ee62d7;
+    background: #f0edef;
     position: fixed;
     top: 0;
     right: -200px;
@@ -372,7 +372,7 @@ flex-basis: 100%;
 }
 }
 #msg{
-    color:#ee62d7;
+    color:#0f0a0e;
     margin-top: -40px;
     display: block;
 }
