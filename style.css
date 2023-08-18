@@ -10,7 +10,7 @@ html{
 body{
     background-image: url("background.png");
     background-repeat: no-repeat;
-    width: 90%;
+    width: 80%;
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 60%;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -300,9 +300,9 @@ form .btn2{
     cursor: pointer;
 }
 .copyright{
-    width: 100%;
+    width: 125%;
     text-align: center;
-    padding: 25px 0;
+    padding: 25px;
     background: #f79cb9;
     font-weight: 300;
     margin-top: 30px;
